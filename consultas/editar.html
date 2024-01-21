@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Care (Banco de Urgência)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><span class="green">Green</span>Care</div>
+            <div class="area-servico">Área de banco de urgência</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="../consultas/"><li class="nav-item nav-item-active">Consultas</li></a>
+                <a href="../pacientes/"><li class="nav-item">Pacientes</li></a>
+                <a href="../funcionarios/"><li class="nav-item">Funcionários</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main-content">
+    <div class="group-items-center">
+        <a class="btn-delete" href="../consultas/">Deletar</a>
+        <h1 class="text-center">Atualizar consulta</h1>
+    </div>
+        <form class="frm" action="../consultas/" method="get">
+            <label class="label">Nome Completo: </label>
+            <input type="text" class="input" value="Ana Silva">
+
+            <label class="label">Endereço: </label>
+            <input type="text" class="input" value="Rua Flores, 123, Cidade Alegre">
+
+            <label class="label">Telefone: </label>
+            <input type="text" class="input" value="(11) 98765-4321">
+
+            <label class="label">Estado Clínico: </label>
+            <input type="text" class="input" value="Check-up anual">
+
+            <label class="label">Data da marcação: </label>
+            <input type="date" class="input" value="2024-01-15"> 
+            <input class="submit" type="submit" value="Atualizar">
+        </form>
+    </main>
+    
+</body>
+</html>

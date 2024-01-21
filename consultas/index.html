@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Care (Banco de Urgência)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><span class="green">Green</span>Care</div>
+            <div class="area-servico">Área de banco de urgência</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="../consultas/"><li class="nav-item nav-item-active">Consultas</li></a>
+                <a href="../pacientes/"><li class="nav-item">Pacientes</li></a>
+                <a href="../funcionarios/"><li class="nav-item">Funcionários</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main-content">
+        <h1>Lista de consultas</h1>
+        <a class="btn-cadastrar" href="cadastrar.html">+ Cadastrar</a>
+        <table class="table-data">
+            <thead>
+                <tr>
+                    <td>Nome completo</td>
+                    <td>Endereço</td>
+                    <td>Telefone</td>
+                    <td>Estado Clínico</td>
+                    <td>Data da marcação</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Ana Silva</td>
+                    <td>Rua Flores, 123, Cidade Alegre</td>
+                    <td>(11) 98765-4321</td>
+                    <td>Check-up anual</td>
+                    <td>2024-01-15</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Carlos Oliveira</td>
+                    <td>Avenida Principal, 567, Cidade Tranquila</td>
+                    <td>(21) 87654-3210</td>
+                    <td>Dor de garganta</td>
+                    <td>2024-02-02</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>

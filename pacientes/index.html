@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Care (Banco de Urgência)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><span class="green">Green</span>Care</div>
+            <div class="area-servico">Área de banco de urgência</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="../consultas/"><li class="nav-item">Consultas</li></a>
+                <a href="../pacientes/"><li class="nav-item nav-item-active">Pacientes</li></a>
+                <a href="../funcionarios/"><li class="nav-item">Funcionários</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main-content">
+        <h1>Lista de pacientes</h1>
+        <a class="btn-cadastrar" href="cadastrar.html">+ Cadastrar</a>
+        <table class="table-data">
+
+     
+            <thead>
+                <tr>
+                    <td>Nome completo</td>
+                    <td>Idade</td>
+                    <td>Sexo</td>
+                    <td>Endereço</td>
+                    <td>Telefone</td>
+                    <td>Estado Clínico</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Marina Santos</td>
+                    <td>28 anos</td>
+                    <td>Feminino</td>
+                    <td>Travessa Sol, 89, Cidade Serena</td>
+                    <td>(31) 76543-2109</td>
+                    <td>Consulta de rotina</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>João Pereira</td>
+                    <td>50 anos</td>
+                    <td>Masculino</td>
+                    <td>Praça Central, 456, Cidade Pacata</td>
+                    <td>(41) 65432-1098</td>
+                    <td>Pressão alta</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Fernanda Lima</td>
+                    <td>32 anos</td>
+                    <td>Feminino</td>
+                    <td>Alameda Sombra, 789, Cidade Sossegada</td>
+                    <td>(51) 54321-0987</td>
+                    <td>Exame de sangue</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>

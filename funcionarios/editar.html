@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Care (Banco de Urgência)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><span class="green">Green</span>Care</div>
+            <div class="area-servico">Área de banco de urgência</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="../consultas/"><li class="nav-item">Consultas</li></a>
+                <a href="../pacientes/"><li class="nav-item">Pacientes</li></a>
+                <a href="../funcionarios/"><li class="nav-item nav-item-active">Funcionários</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main-content">
+    <div class="group-items-center">
+        <a class="btn-delete" href="../funcionarios/">Deletar</a>
+        <h1 class="text-center">Atualizar funcionário</h1>
+    </div>
+
+        <form class="frm" action="../funcionarios/" method="get">
+            <label class="label">Nome Completo: </label>
+            <input type="text" class="input" value="Rafael Lima">
+
+            <label class="label">Idade: </label>
+            <input type="text" class="input" value="38 anos">
+
+            
+            <label class="label">Sexo: </label>
+            <input type="text" class="input" value="Masculino">
+
+            <label class="label">Cargo: </label>
+            <input type="text" class="input" value="Enfermeiro">
+
+            <label class="label">Setor: </label>
+            <input type="text" class="input" value="Emergência">
+
+            <label class="label">Nº de Identificação: </label>
+            <input type="text" class="input" value="EMP001">
+
+            
+            <label class="label">Escala de Trabalho: </label>
+            <input type="text" class="input" value="12h x 36h">
+
+            <input class="submit" type="submit" value="Atualizar">
+        </form>
+    </main>
+    
+</body>
+</html>

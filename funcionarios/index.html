@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Care (Banco de Urgência)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><span class="green">Green</span>Care</div>
+            <div class="area-servico">Área de banco de urgência</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="../consultas/"><li class="nav-item">Consultas</li></a>
+                <a href="../pacientes/"><li class="nav-item">Pacientes</li></a>
+                <a href="../funcionarios/"><li class="nav-item nav-item-active">Funcionários</li></a>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main-content">
+        <h1>Lista de funcionários</h1>
+        <a class="btn-cadastrar" href="cadastrar.html">+ Cadastrar</a>
+        <table class="table-data">
+
+     
+            <thead>
+                <tr>
+                    <td>Nome completo</td>
+                    <td>Idade</td>
+                    <td>Sexo</td>
+                    <td>Cargo</td>
+                    <td>Setor</td>
+                    <td>Nº de Identificação</td>
+                    <td>Escala de Trabalho</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Rafael Lima</td>
+                    <td>38 anos</td>
+                    <td>Masculino</td>
+                    <td>Enfermeiro</td>
+                    <td>Emergência</td>
+                    <td>EMP001</td>
+                    <td>12h x 36h</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Juliana Oliveira</td>
+                    <td>28 anos</td>
+                    <td>Feminino</td>
+                    <td>Médica</td>
+                    <td>Traumatologia</td>
+                    <td>EMP002</td>
+                    <td>24h x 48h</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>André Santos</td>
+                    <td>45 anos</td>
+                    <td>Masculino</td>
+                    <td>Técnico de Radiologia</td>
+                    <td>Diagnóstico por Imagem</td>
+                    <td>EMP003</td>
+                    <td>8h x 40h</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Ana Costa</td>
+                    <td>34 anos</td>
+                    <td>Feminino</td>
+                    <td>Recepcionista</td>
+                    <td>Atendimento ao Paciente</td>
+                    <td>EMP004</td>
+                    <td>9h x 45h</td>
+                </tr>
+
+                <tr onclick="window.location.href='editar.html'">
+                    <td>Marcelo Pereira</td>
+                    <td>40 anos</td>
+                    <td>Masculino</td>
+                    <td>Paramédico</td>
+                    <td>Pré-hospitalar</td>
+                    <td>EMP005</td>
+                    <td>24h x 72h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>
